@@ -9,44 +9,44 @@ const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
 });
 
-// 36 images
+// 18 images (duplicated to fill 36 grid spaces)
 const images = [
-  "/game-photos/1.avif",
-  "/game-photos/2.avif",
-  "/game-photos/3.avif",
-  "/game-photos/4.avif",
-  "/game-photos/5.avif",
-  "/game-photos/6.avif",
-  "/game-photos/7.avif",
-  "/game-photos/8.avif",
-  "/game-photos/9.avif",
-  "/game-photos/10.avif",
-  "/game-photos/11.avif",
-  "/game-photos/12.avif",
-  "/game-photos/13.avif",
-  "/game-photos/14.avif",
-  "/game-photos/15.avif",
-  "/game-photos/16.avif",
-  "/game-photos/17.avif",
-  "/game-photos/18.avif",
-  "/game-photos/19.avif",
-  "/game-photos/20.avif",
-  "/game-photos/21.avif",
-  "/game-photos/22.avif",
-  "/game-photos/23.avif",
-  "/game-photos/24.avif",
-  "/game-photos/25.avif",
-  "/game-photos/26.avif",
-  "/game-photos/27.avif",
-  "/game-photos/28.avif",
-  "/game-photos/29.avif",
-  "/game-photos/30.avif",
-  "/game-photos/31.avif",
-  "/game-photos/32.avif",
-  "/game-photos/33.avif",
-  "/game-photos/34.avif",
-  "/game-photos/35.avif",
-  "/game-photos/36.avif",
+  "/surprise/game-photos/1.jpg",
+  "/surprise/game-photos/2.jpg",
+  "/surprise/game-photos/3.jpg",
+  "/surprise/game-photos/4.jpg",
+  "/surprise/game-photos/5.jpg",
+  "/surprise/game-photos/6.jpg",
+  "/surprise/game-photos/7.jpg",
+  "/surprise/game-photos/8.jpg",
+  "/surprise/game-photos/9.jpg",
+  "/surprise/game-photos/10.jpg",
+  "/surprise/game-photos/11.jpg",
+  "/surprise/game-photos/12.jpg",
+  "/surprise/game-photos/13.jpg",
+  "/surprise/game-photos/14.jpg",
+  "/surprise/game-photos/15.jpg",
+  "/surprise/game-photos/16.jpg",
+  "/surprise/game-photos/17.jpg",
+  "/surprise/game-photos/18.jpg",
+  "/surprise/game-photos/1.jpg",
+  "/surprise/game-photos/2.jpg",
+  "/surprise/game-photos/3.jpg",
+  "/surprise/game-photos/4.jpg",
+  "/surprise/game-photos/5.jpg",
+  "/surprise/game-photos/6.jpg",
+  "/surprise/game-photos/7.jpg",
+  "/surprise/game-photos/8.jpg",
+  "/surprise/game-photos/9.jpg",
+  "/surprise/game-photos/10.jpg",
+  "/surprise/game-photos/11.jpg",
+  "/surprise/game-photos/12.jpg",
+  "/surprise/game-photos/13.jpg",
+  "/surprise/game-photos/14.jpg",
+  "/surprise/game-photos/15.jpg",
+  "/surprise/game-photos/16.jpg",
+  "/surprise/game-photos/17.jpg",
+  "/surprise/game-photos/18.jpg",
 ];
 
 export default function ValentinesProposal() {
@@ -135,7 +135,7 @@ export default function ValentinesProposal() {
               Will you be my Valentine?
             </h2>
             <Image
-              src="/sad_hamster.png"
+              src="/surprise/sad_hamster.png"
               alt="Sad Hamster"
               width={200}
               height={200}
@@ -177,7 +177,7 @@ export default function ValentinesProposal() {
             Thank you for accepting, I love you! 💕
             <p className="text-sm mt-4">For more information, write me!!! 💌</p>
             <Image
-              src="/hamster_jumping.gif"
+              src="/surprise/hamster_jumping.gif"
               alt="Hamster Feliz"
               width={200}
               height={200}
