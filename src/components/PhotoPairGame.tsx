@@ -118,7 +118,8 @@ export default function PhotoPairGame({
             {/* Back of the card */}
             {!selected.includes(index) && !matched.includes(index) && (
               <motion.div
-                className="w-full h-full bg-gray-300 rounded-md absolute"
+                className="w-full h-full rounded-md absolute"
+                style={{ backgroundColor: '#FFFD74', backfaceVisibility: "hidden" }}
                 initial={{ rotateY: 0 }}
                 animate={{
                   rotateY:
@@ -127,7 +128,6 @@ export default function PhotoPairGame({
                       : 0,
                 }}
                 transition={{ duration: 0.5 }}
-                style={{ backfaceVisibility: "hidden" }}
               />
             )}
 
