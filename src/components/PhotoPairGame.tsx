@@ -99,8 +99,8 @@ export default function PhotoPairGame({
             key={i}
             src={image}
             alt={`Image ${i + 1}`}
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: 'cover' }}
             priority
           />
         ))}
@@ -143,8 +143,8 @@ export default function PhotoPairGame({
                 <Image
                   src={images[index]}
                   alt={`Imagen ${index + 1}`}
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  style={{ objectFit: 'cover' }}
                   className="rounded-md"
                 />
               </motion.div>

@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Your Next.js config
+  output: 'export',
+  basePath: '/surprise',
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
 };
 
 export default nextConfig;
