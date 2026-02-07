@@ -1,5 +1,4 @@
 import { Pixelify_Sans } from "next/font/google";
-import Link from "next/link";
 
 const pixelifySans = Pixelify_Sans({
   weight: ["400", "500", "600", "700"],
